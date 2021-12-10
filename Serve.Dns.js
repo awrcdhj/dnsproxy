@@ -1,7 +1,7 @@
 #  TITLE=Concurrent parsing of DNS server
-#  TOTAL_DNS_SERVER_lIST =< 111
+#  DNS_SERVER_TOTAL_LINK =< 111
 
-ddresses/@server:/
+local/@server:/@awrcdnj #1 #5 
 <Script>
 #!/bin/bash
 
