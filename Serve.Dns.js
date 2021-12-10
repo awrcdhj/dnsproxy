@@ -1,11 +1,9 @@
-#  TITLE=Concurrent parsing of DNS server
-#  DNS_SERVER_TOTAL_LINK =< 111
-/* local/@server:/@awrcdnj #1 #5*/
+#  TITLE: DNS Concurrent start
+#  DNS_TOTAL_LINK_SERVER => 111
+address/@server:/@awrcdnj/
 <Script>
-#!/bin/bash
-
-#设置DNS
-
+#/bin/bash
+# DNS SEND
 [[ $# -ne 2 ]] && echo "ERROR:Invalid Param,Please Execute:bash $0 url dns_ip" && exit 1
 
 URL=$1
